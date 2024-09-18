@@ -75,7 +75,7 @@ img
 .btn-1:hover
 {
     color: var(--white);
-    background-color: rgba(0,167,142,0.7);
+    background-color: rgba(248, 36, 202, 0.7);
 }
 
 .btn-2
@@ -816,7 +816,7 @@ img
 }
 .pricing-plan .pricing-header h3
 {
-    font-size: 30px;
+    font-size: 20px;
     color: var(--black-900);
     font-weight: 500;
     text-transform: capitalize;
@@ -852,7 +852,7 @@ img
 }
 .pricing-plan .pricing-price .price 
 {
-    font-size: 80px;
+    font-size: 30px;
     font-weight: 700;
     color: var(--main-color);
 }
