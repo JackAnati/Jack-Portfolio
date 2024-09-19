@@ -1,3 +1,4 @@
-portfolio 
+Portfolio 
 
-Created using HTML,CSS and Javascript.
+Created using HTML, CSS, and Javascript.
+
