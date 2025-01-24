@@ -411,6 +411,7 @@ img
 .about-section .about-content p
 {
     text-align: justify;
+    color: var(--black-400);
 }
 .skill-item .skill-header
 {
@@ -468,82 +469,114 @@ img
     right: 0;
 }
 /*===== Services =====*/
-.service-section
-{
-    min-height: 100vh;
-    background-color: var(--black-100);
+/* General Section Styling */
+.service-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
 }
-.service-section .service-item
-{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.service-section .service-item-inner
-{
-    box-shadow: var(--shadow-black-100);
-    padding: 50px 15px;
-    border-radius: 10px;
-    width: 100%;
+
+.section-title {
     text-align: center;
-    transition: all 0.3s ease;
+    margin-bottom: 40px;
 }
-.service-section .service-item-inner:hover
-{
-    background-color: var(--main-color);
-}
-.service-section .service-item-inner .icon 
-{
-    height: 60px;
-    width: 60px;
-    background-color: var(--main-color);
-    margin: 0 auto 30px;
-    text-align: center;
-    font-size: 28px;
-    color: var(--white);
-    border-radius: 20px;
-    border-bottom-right-radius: 0;
-    position: relative;
-    z-index: 1;
-    transition: all 0.3s ease;
-}
-.service-section .service-item-inner:hover .icon
-{
-    background-color: var(--white);
-    color: var(--main-color);
-    font-size: 24px;
-}
-.service-section .service-item-inner .icon i
-{
-    line-height: 60px;
-}
-.service-section .service-item-inner h3
-{
-    font-size: 20px;
+
+.sub-title {
+    font-size: 18px;
     font-weight: 600;
-    color: var(--black-900);
-    margin: 0 0 10px;
-    text-transform: capitalize;
-    transition: all 0.3s ease;
+    color:#FF1493;
 }
-.service-section .service-item-inner:hover h3
-{
-    color: var(--white);
+
+.main-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
 }
-.service-section .service-item-inner p
-{
-    font-size: 16px;
-    color: var(--black-400);
-    margin: 0;
-    line-height: 26px;
-    transition: all 0.3s ease;
+
+.line {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
 }
-.service-section .service-item-inner:hover p
-{
-    color: var(--black-100);
+
+.line li {
+    width: 10px;
+    height: 10px;
+    background-color: #FF1493;
+    border-radius: 50%;
 }
+
+/* Card Styling */
+.card {
+    background-color: #f8f9fa;
+    margin-right: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Title Styling */
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #444;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-title i {
+    font-size: 28px;
+    color: #FF1493;
+}
+
+/* Work Experience and Education Styling */
+.card-content {
+    padding: 15px 0;
+}
+
+.card-content h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+
+.card-content h6 {
+    font-size: 14px;
+    color:  #FF1493;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-content li {
+    font-size: 14px;
+    color: #666;
+}
+.card-content p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-content hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 15px 0;
+}
+
+/* Tag Styling */
+.tag {
+    background-color: #FF1493;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
 /*===== portfolio =====*/
 .portfolio .portfolio-filter
 {
